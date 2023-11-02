@@ -1,0 +1,7 @@
+/.vscode
+/android
+/cypress
+/dist
+/ios
+/node_modules
+/public

@@ -1,0 +1,13 @@
+@mixin dimension {
+  --dimension-gutter--xs: 0.8rem;
+  --dimension-gutter--sm: 1.6rem;
+  --dimension-gutter--md: 2.4rem;
+  --dimension-gutter--lg: 3.2rem;
+  --dimension-gutter--xl: 4rem;
+
+  --dimension-border-radius--xs: 0.4rem;
+  --dimension-border-radius--sm: 0.6rem;
+  --dimension-border-radius--md: 0.8rem;
+  --dimension-border-radius--lg: 1.2rem;
+  --dimension-border-radius--xl: 1.6rem;
+}

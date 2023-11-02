@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+  padding-top: calc(5.1rem);
+  padding-bottom: calc(3.5rem);
+
+  &.ios {
+    padding-top: calc(env(safe-area-inset-top) + 5.1rem);
+    padding-bottom: calc(env(safe-area-inset-bottom) + 3rem);
+  }
+
+  .header {
+    background-color: var(--color--sea-foam);
+    position: fixed;
+    top: 0;
+    padding: var(--dimension-gutter--xs) var(--dimension-gutter--sm);
+    width: 100%;
+    border-bottom: 0.2rem solid var(--color--black);
+
+    &.ios {
+      padding-top: calc(env(safe-area-inset-top));
+    }
+  }
+
+  .footer {
+    position: fixed;
+    background-color: var(--color--sea-foam);
+    bottom: 0;
+    padding: var(--dimension-gutter--sm);
+    display: flex;
+    width: 100%;
+    border-top: 0.2rem solid var(--color--black);
+
+    .navButton {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &.ios {
+      padding-bottom: calc(env(safe-area-inset-bottom));
+    }
+
+    .icon {
+      color: var(--color--gray-600);
+      height: 2.5rem;
+      width: 2.5rem;
+
+      &.active {
+        color: var(--color--dark-blue);
+      }
+    }
+  }
+
+  .content {
+    padding: var(--dimension-gutter--md);
+  }
+}

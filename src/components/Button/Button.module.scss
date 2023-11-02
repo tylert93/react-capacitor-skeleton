@@ -1,0 +1,17 @@
+.button {
+  background-color: var(--color--teal);
+  border: 0.1rem solid var(--color--black);
+  border-bottom-width: 0.3rem;
+  color: var(--color--white);
+  border-radius: var(--dimension-border-radius--sm);
+  padding: var(--dimension-gutter--xs) var(--dimension-gutter--sm);
+  font-size: var(--typography-font-size--md);
+  font-weight: 600;
+  margin: 0 auto;
+
+  &:active {
+    border-bottom-width: 0.1rem;
+    transform: translateY(0.1rem);
+    transition: all 0.2s ease-out;
+  }
+}

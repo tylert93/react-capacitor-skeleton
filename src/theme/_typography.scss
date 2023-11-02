@@ -1,0 +1,20 @@
+@mixin typography {
+  --typography-font-size--xs: 1.2rem;
+  --typography-font-size--sm: 1.4rem;
+  --typography-font-size--md: 1.6rem;
+  --typography-font-size--lg: 2.4rem;
+  --typography-font-size--xl: 3.2rem;
+
+  --typography-font-size--h6: 1.2rem;
+  --typography-font-size--h5: 1.4rem;
+  --typography-font-size--h4: 1.6rem;
+  --typography-font-size--h3: 2.4rem;
+  --typography-font-size--h2: 3.2rem;
+  --typography-font-size--h1: 4rem;
+
+  --typography-font-weight--normal: 400;
+  --typography-font-weight--bold: 600;
+
+  --typography-line-height--md: 1.2;
+  --typography-line-height--lg: 1.4;
+}

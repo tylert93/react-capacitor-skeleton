@@ -1,0 +1,16 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .errorMsg {
+    margin: var(--dimension-gutter--sm) 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}

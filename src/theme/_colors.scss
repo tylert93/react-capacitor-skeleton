@@ -1,0 +1,23 @@
+@mixin colors {
+  --color--gray-100: hsl(0, 0%, 96%);
+  --color--gray-200: hsl(0, 0%, 93%);
+  --color--gray-300: hsl(0, 0%, 88%);
+  --color--gray-400: hsl(0, 0%, 74%);
+  --color--gray-500: hsl(0, 0%, 62%);
+  --color--gray-550: hsl(0, 0%, 59%);
+  --color--gray-600: hsl(0, 0%, 46%);
+  --color--gray-700: hsl(0, 0%, 38%);
+  --color--gray-800: hsl(0, 0%, 26%);
+  --color--gray-900: hsl(0, 0%, 13%);
+
+  --color--dark-blue: #04364a;
+  --color--midnight-blue: #1a1a7f;
+  --color--teal: #05bfdb;
+  --color--sea-foam: #eefffd;
+  --color--light-teal: #64ccc5;
+  --color--medium-violet-red: #970a52;
+  --color--dark-mint: #176b87;
+  --color--white: white;
+  --color--black: black;
+  --color--lavender: #e6e6ff;
+}

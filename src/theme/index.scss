@@ -1,0 +1,58 @@
+@import "./colors";
+@import "./dimension";
+@import "./typography";
+
+:root {
+  @include colors;
+  @include dimension;
+  @include typography;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../assets/fonts/NotoSansJP/NotoSansJP-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url("../assets/fonts/NotoSansJP/NotoSansJP-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url("../assets/fonts/NotoSansJP/NotoSansJP-Bold.ttf");
+}
+
+html {
+  font-family: "Noto Sans";
+  font-size: 10px;
+  font-weight: 400;
+  background-color: var(--color--white);
+  color: var(--color--dark-blue);
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
